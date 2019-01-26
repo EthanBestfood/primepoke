@@ -1,0 +1,71 @@
+
+body{
+	background-color: #fff;
+	padding-bottom: 10%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+.mainHeading{
+	font-size: 15vw;
+	line-height: 1em;
+	width: 50%;
+	margin-top: 5%;
+	margin-left: 5%;
+	font-weight: 700;
+	position: fixed;
+	z-index: -999;
+	opacity: 0.4;
+}
+
+.mainImageSection{
+	margin-top: 5%;
+	margin-left: 50%;
+}
+
+
+.img{
+	width: 20vw;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin-left: 4%;
+	margin-bottom: 2%;
+}
+
+.subHeading1{
+	font-size: 2vw;
+	line-height: 1em;
+	font-weight: 400;
+}
+
+.menu1, .menu2, .menu3{
+	width: 22vw;
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.section{
+	margin-top: 5%;
+}
+
+.yelp-review{
+	width: 2vw;
+	margin-bottom: 3%;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.yelp-link{
+	text-decoration: none;
+	color: #000;
+	font-size: 2vw;
+	font-weight: 700;
+}
+
+.flex-grid {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
