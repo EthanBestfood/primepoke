@@ -9,6 +9,17 @@
 		color: #011648;
 	}
 
+	.background-img{
+		width: 110vw;
+		position: fixed;
+		z-index: -999;
+		left: 0;
+		top: 0;
+		opacity: 0.0;
+		object-fit: cover;
+	}
+
+
 	.header{
 		margin-top: 20%;
 		margin-left: 15%;
@@ -180,20 +191,29 @@
 		color: #011648;
 	}
 
+	.background-img{
+		width: 110vw;
+		position: fixed;
+		z-index: -999;
+		left: 0;
+		top: 0;
+		object-fit: cover;
+	}
+
 	.header{
-		margin-top: 5%;
+		margin-top: 10%;
 	}
 
 	.mainHeading{
 		top: 0;
 		font-size: 12vw;
 		line-height: 0.8em;
-		margin-top: 10%;
+		margin-top: 12%;
 		margin-left: 8%;
 		font-weight: 800;
 		z-index: -999;
-		color: #fff;
-		text-shadow: -2px 0 #011648, 0 2px #011648, 2px 0 #011648, 0 -2px #011648, 12px 12px 20px rgba(150, 150, 150, 1);
+		color: #011648;
+		text-shadow: 12px 12px 20px rgba(150, 150, 150, 0.5);
 	}
 
 	.openHours{
@@ -240,7 +260,7 @@
 		margin-top: 1%;
 		margin-left: 0.5%;
 		margin-right: 0.5%;
-		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
 	}
 
 	.section{
@@ -319,6 +339,7 @@
 	.mapEmbed{
 		width: 70%;
 		height: 70%;
+		box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
 	}
 
 	.img1, .img2, .img3, .img4, .img5, .img6{
@@ -326,9 +347,7 @@
 		height: 38vw;
 		margin: 5%;
 		object-fit: cover;
-		-webkit-box-shadow: 10px 10px 22px -10px rgba(189,189,189,1);
-		-moz-box-shadow: 10px 10px 22px -10px rgba(189,189,189,1);
-		box-shadow: 10px 10px 22px -10px rgba(189,189,189,1);
+		box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
 	}
 
 	.footerText{
