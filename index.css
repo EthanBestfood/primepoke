@@ -9,6 +9,10 @@
 		color: #011648;
 	}
 
+	.menu{
+		display: none;
+	}
+
 	.background-img{
 		width: 10vw;
 		position: fixed;
@@ -191,6 +195,25 @@
 		color: #011648;
 	}
 
+	.menu{
+		display: block;
+		position: fixed;
+		top: 0;
+		margin-top: 2%;
+		width: 94%;
+		z-index: 999;
+	}
+
+	.menuLink{
+		color: #fff;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 22px;
+		margin-left: 5%;
+		text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+		z-index: 999;
+	}
+
 	.background-img{
 		width: 110vw;
 		position: fixed;
@@ -200,20 +223,28 @@
 		object-fit: cover;
 	}
 
+	.rest-of-the-page{
+		display: none;
+	}
+
 	.header{
 		margin-top: 10%;
 	}
 
 	.mainHeading{
+		position: fixed;
 		top: 0;
-		font-size: 12vw;
-		line-height: 0.8em;
-		margin-top: 12%;
-		margin-left: 8%;
+		left: 0;
+		float: left;
+		font-size: 18vw;
+		line-height: 1em;
+		margin-top: 10%;
+		margin-left: 10%;
 		font-weight: 800;
 		z-index: -999;
-		color: #011648;
-		text-shadow: 12px 12px 20px rgba(150, 150, 150, 0.5);
+		color: #fff;
+		width: 30%;
+		text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 	}
 
 	.openHours{
@@ -231,6 +262,8 @@
 		height: 40vw;
 		margin-left: 20%;
 		margin-bottom: 4%;
+		display: hidden;
+		opacity: 0.0;
 	}
 
 	.headingHighlight{
@@ -344,7 +377,7 @@
 
 	.img1, .img2, .img3, .img4, .img5, .img6{
 		width: 30vw;
-		height: 38vw;
+		height: 30vw;
 		margin: 5%;
 		object-fit: cover;
 		box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
@@ -352,6 +385,40 @@
 
 	.footerText{
 		font-size: 1vw;
+	}
+
+	.subHeading3{
+		color: #fff;
+		font-size: 48px;
+		text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+	}
+
+	.subHeading4{
+		color: #fff;
+		font-size: 32px;
+		text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+	}
+
+	.subParagraph{
+		color: #fff;
+		font-size: 28px;
+		text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+	}
+
+	.subParagraph2{
+		color: #fff;
+		font-size: 22px;
+		text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+	}
+
+	.about-content{
+		margin-top: 15%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+	.valuesSection{
+		width: 80%;
 	}
 
 	footer{
