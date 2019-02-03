@@ -1,11 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 @media (max-width: 900px) {
 	body{
 		background-color: #fff;
 		padding-bottom: 10%;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		font-family: 'Lato', sans-serif;
 		color: #011648;
 	}
 
@@ -36,7 +36,7 @@
 		line-height: 0.8em;
 		margin-top: 0%;
 		margin-left: 0%;
-		font-weight: 800;
+		font-weight: 700;
 		z-index: -999;
 		color: #011648;
 	}
@@ -191,7 +191,7 @@
 	body{
 		background-color: #fff;
 		padding-bottom: 10%;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		font-family: 'Lato', sans-serif;
 		color: #011648;
 	}
 
@@ -241,7 +241,7 @@
 		line-height: 1em;
 		margin-top: 12%;
 		margin-left: 13%;
-		font-weight: 800;
+		font-weight: 700;
 		z-index: -999;
 		color: #fff;
 		width: 30%;
