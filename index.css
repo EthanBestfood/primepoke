@@ -209,7 +209,8 @@
 		text-decoration: none;
 		font-weight: 600;
 		font-size: 22px;
-		margin-left: 5%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
 		text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
 		z-index: 999;
 	}
@@ -238,8 +239,8 @@
 		float: left;
 		font-size: 18vw;
 		line-height: 1em;
-		margin-top: 10%;
-		margin-left: 10%;
+		margin-top: 12%;
+		margin-left: 13%;
 		font-weight: 800;
 		z-index: -999;
 		color: #fff;
@@ -421,7 +422,19 @@
 		width: 80%;
 	}
 
+	.address{
+		color: #fff;
+		font-size: 15px;
+		position: fixed;
+		right: 0;
+		top: 0;
+		margin-right: 5%;
+		margin-top: 2%;
+	}
+
 	footer{
+		display: none;
+		color: #fff;
 		padding-top: 5%;
 	}
 	
