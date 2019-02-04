@@ -237,7 +237,7 @@
 		top: 0;
 		left: 0;
 		float: left;
-		font-size: 16vw;
+		font-size: 14vw;
 		line-height: 1em;
 		margin-top: 12%;
 		margin-left: 13%;
@@ -337,7 +337,7 @@
 		line-height: 1.2em;
 		font-weight: 300;
 		z-index: -999;
-		color: #011648;
+		color: #fff;
 		width: 50%;
 	}
 
