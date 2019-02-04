@@ -201,6 +201,7 @@
 		top: 0;
 		left: 0;
 		padding-top: 2%;
+		padding-left: 12%;
 		padding-bottom: 2%;
 		width: 100%;
 		z-index: 999;
@@ -214,7 +215,6 @@
 		font-size: 22px;
 		margin-left: 2.5%;
 		margin-right: 2.5%;
-		text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
 		z-index: 999;
 	}
 
