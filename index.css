@@ -128,7 +128,7 @@
 		line-height: 1.2em;
 		font-weight: 300;
 		z-index: -999;
-		color: #011648;
+		color: #000;
 		width: 90%;
 	}
 
@@ -250,13 +250,13 @@
 		top: 0;
 		left: 0;
 		float: left;
-		font-size: 14vw;
+		font-size: 10vw;
 		line-height: 1em;
-		margin-top: 12%;
-		margin-left: 13%;
+		margin-top: 20%;
+		margin-left: 10%;
 		font-weight: 700;
 		z-index: -999;
-		color: #fff;
+		color: #000;
 		width: 30%;
 		text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 	}
@@ -350,7 +350,7 @@
 		line-height: 1.2em;
 		font-weight: 300;
 		z-index: -999;
-		color: #fff;
+		color: #000;
 		width: 50%;
 	}
 
