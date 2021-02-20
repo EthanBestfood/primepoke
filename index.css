@@ -10,6 +10,15 @@
   }
 }
 
+.wpmobile{
+    display: block;
+}
+@media (max-width: 900px) {
+  .wpmobile{
+    display: none !important;
+  }
+}
+
 @media (max-width: 900px) {
 	body{
 		background-color: #fff;
