@@ -1,6 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+
+.btnmobile{
+    display: none;
+}
+@media (max-width: 900px) {
+  .btnmobile{
+    display: block !important;
+  }
+}
+
+.btnpc{
+    display: block;
+}
+@media (max-width: 900px) {
+  .btnpc{
+    display: none !important;
+  }
+}
+
 .wppc{
     display: none;
 }
@@ -281,7 +300,7 @@
 	
 	.btnOrder{
 		position: fixed;
-		top: 50%;
+		top: 90%;
 		left: 0;
 		float: left;
 		line-height: 1em;
