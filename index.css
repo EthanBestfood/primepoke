@@ -269,6 +269,18 @@
 		width: 30%;
 		text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 	}
+	
+	.btnOrder{
+		position: fixed;
+		top: 25%;
+		left: 0;
+		float: left;
+		line-height: 1em;
+		margin-top: 30px;
+		margin-left: 10%;
+		z-index: -999;
+		width: 30%;
+	}
 
 	.openHours{
 		top: 0;
