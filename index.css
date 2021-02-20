@@ -1,6 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+.wppc{
+    display: none;
+}
+@media (max-width: 900px) {
+  .wppc{
+    display: block !important;
+  }
+}
+
 @media (max-width: 900px) {
 	body{
 		background-color: #fff;
