@@ -12,7 +12,7 @@
 }
 
 .btnpc{
-    display: block;
+    display: block;    
 }
 @media (max-width: 900px) {
   .btnpc{
@@ -20,23 +20,7 @@
   }
 }
 
-.wppc{
-    display: none;
-}
-@media (max-width: 900px) {
-  .wppc{
-    display: block !important;
-  }
-}
 
-.wpmobile{
-    display: block;
-}
-@media (max-width: 900px) {
-  .wpmobile{
-    display: none !important;
-  }
-}
 
 @media (max-width: 900px) {
 	body{
@@ -301,12 +285,8 @@
 	.btnOrder{
 		position: fixed;
 		top: 90%;
-		left: 0;
+		left: 10%;
 		float: left;
-		line-height: 1em;
-		margin-top: 30px;
-		margin-left: 10%;
-		z-index: -999;
 		width: 30%;
 	}
 
